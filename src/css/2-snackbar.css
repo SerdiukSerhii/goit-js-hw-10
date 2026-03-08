@@ -6,16 +6,23 @@
 .form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 16px;
+  width: 280px;
 }
 
 .form label {
   display: flex;
   flex-direction: row;
-
   text-align: left;
   font-size: 14px;
   gap: 6px;
+}
+
+.form .delay-label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .form .delay-ms {
@@ -30,7 +37,6 @@ fieldset {
   justify-content: space-evenly;
   gap: 20px;
   align-items: center;
-
   text-align: left;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -42,9 +48,4 @@ fieldset label {
   align-items: center;
   gap: 6px;
   margin-top: 6px;
-}
-
-.radio-field {
-  display: flex;
-  flex-direction: row;
 }
