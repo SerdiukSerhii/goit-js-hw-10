@@ -15,8 +15,10 @@
   align-items: center;
   justify-content: flex-end;
   gap: 40px;
+  margin: 0 auto;
 }
 .nav-link {
+  font-size: 48px;
   position: relative;
   display: block;
   font-weight: 500;
